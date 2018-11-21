@@ -1,0 +1,1 @@
+My personal list of codes to practice Java
