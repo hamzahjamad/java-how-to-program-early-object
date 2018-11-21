@@ -38,7 +38,7 @@ public class CreateTextFile {
         {
             try
             {
-                output.format("%d %s %.2f%n", input.nextInt(), input.next(), input.next(), input.nextDouble());
+                output.format("%d %s %s %.2f%n", input.nextInt(), input.next(), input.next(), input.nextDouble());
             } catch (FormatterClosedException e) {
                 System.err.println("Error writing to file. Terminating..");
                 break;
