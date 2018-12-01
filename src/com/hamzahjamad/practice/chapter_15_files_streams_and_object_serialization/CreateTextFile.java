@@ -32,7 +32,7 @@ public class CreateTextFile {
     public static void addRecords()
     {
         Scanner input = new Scanner(System.in);
-        System.out.printf("%s%n%s%n? ", "Enter account number, first name, and blance.", "Enter end-of-file indicator to end input");
+        System.out.printf("%s%n%s%n? ", "Enter account number, first name, last name and balance.", "Enter end-of-file indicator to end input");
 
         while(input.hasNext())
         {
