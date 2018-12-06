@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d80207e1-3a19-4473-8b03-21a4c28535a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_14_strings_characters_and_regular_expressions/TokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/CreateSequentialFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/CreditInquiry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/MenuOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/ReadSequentialFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/PrintTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/TaskExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/CreateTextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/CreateTextFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +19,7 @@
       <file leaf-file-name="JFileChooserDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="204">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,11 +28,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JFileChooserTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JFileChooserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/PrintTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/TaskExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +90,8 @@
         <option value="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/ReadSequentialFile.java" />
         <option value="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java" />
         <option value="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/TaskExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/PrintTask.java" />
       </list>
     </option>
   </component>
@@ -87,9 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,22 +118,6 @@
             <path>
               <item name="java-how-to-program-early-object" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-how-to-program-early-object" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-how-to-program-early-object" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-how-to-program-early-object" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -129,19 +131,13 @@
               <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_14_strings_characters_and_regular_expressions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-how-to-program-early-object" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-how-to-program-early-object" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_15_files_streams_and_object_serialization" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_23_concurrency" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -156,19 +152,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JFileChooserTest">
+  <component name="RunManager" selected="Application.TaskExecutor">
     <configuration name="CreateSequentialFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamzahjamad.practice.chapter_15_files_streams_and_object_serialization.CreateSequentialFile" />
-      <module name="java-how-to-program-early-object" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hamzahjamad.practice.chapter_15_files_streams_and_object_serialization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CreateTextFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamzahjamad.practice.chapter_15_files_streams_and_object_serialization.CreateTextFile" />
       <module name="java-how-to-program-early-object" />
       <extension name="coverage">
         <pattern>
@@ -207,20 +193,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="TaskExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamzahjamad.practice.chapter_23_concurrency.TaskExecutor" />
+      <module name="java-how-to-program-early-object" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamzahjamad.practice.chapter_23_concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.CreateTextFile" />
       <item itemvalue="Application.CreditInquiry" />
       <item itemvalue="Application.CreateSequentialFile" />
       <item itemvalue="Application.ReadSequentialFile" />
       <item itemvalue="Application.JFileChooserTest" />
+      <item itemvalue="Application.TaskExecutor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskExecutor" />
         <item itemvalue="Application.JFileChooserTest" />
         <item itemvalue="Application.ReadSequentialFile" />
         <item itemvalue="Application.CreateSequentialFile" />
         <item itemvalue="Application.CreditInquiry" />
-        <item itemvalue="Application.CreateTextFile" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +269,43 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -625,8 +658,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="204">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/TaskExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -635,8 +678,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_15_files_streams_and_object_serialization/JFileChooserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hamzahjamad/practice/chapter_23_concurrency/PrintTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
