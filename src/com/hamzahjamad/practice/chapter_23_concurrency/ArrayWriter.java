@@ -2,10 +2,10 @@ package com.hamzahjamad.practice.chapter_23_concurrency;
 
 public class ArrayWriter implements Runnable {
 
-    private final SimpleArray sharedSimpleArray;
+    private final ISimpleArray sharedSimpleArray;
     private final int startValue;
 
-    public ArrayWriter(int value, SimpleArray array)
+    public ArrayWriter(int value, ISimpleArray array)
     {
         startValue = value;
         sharedSimpleArray = array;

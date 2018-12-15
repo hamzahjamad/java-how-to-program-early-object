@@ -3,23 +3,19 @@ package com.hamzahjamad.practice.chapter_23_concurrency;
 import java.security.SecureRandom;
 import java.util.Arrays;
 
-//not thread safe
-public class SimpleArray implements ISimpleArray {
+public class SimpleArrayThreadSafeVersion implements ISimpleArray {
     private static final SecureRandom generator = new SecureRandom();
     private final int[] array;
     private int writeIndex = 0;
 
-    public SimpleArray(int size)
-    {
-        array = new int[size];
-    }
+    public SimpleArrayThreadSafeVersion(int size) { array = new int[size]; }
 
-    public void add(int value)
+    public synchronized void add(int value)
     {
         int position = writeIndex;
 
         try {
-            Thread.sleep(generator.nextInt(500));
+            Thread.sleep(generator.nextInt(500));//for demo only
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
@@ -37,7 +33,7 @@ public class SimpleArray implements ISimpleArray {
     }
 
     @Override
-    public String toString()
+    public synchronized String toString()
     {
         return Arrays.toString(array);
     }

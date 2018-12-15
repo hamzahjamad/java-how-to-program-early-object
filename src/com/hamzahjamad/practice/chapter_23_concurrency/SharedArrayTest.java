@@ -8,7 +8,8 @@ public class SharedArrayTest {
 
     public static void main(String[] args)
     {
-        SimpleArray sharedSimpleArray = new SimpleArray(6);
+        //SimpleArray sharedSimpleArray = new SimpleArray(6);
+        SimpleArrayThreadSafeVersion sharedSimpleArray = new SimpleArrayThreadSafeVersion(6);
         ArrayWriter writer1 = new ArrayWriter(1, sharedSimpleArray);
         ArrayWriter writer2 = new ArrayWriter(11, sharedSimpleArray);
 
