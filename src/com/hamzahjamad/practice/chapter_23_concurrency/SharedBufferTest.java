@@ -9,8 +9,8 @@ public class SharedBufferTest {
         ExecutorService executorService = Executors.newCachedThreadPool();
         Buffer sharedLocation = new UnsynchronizedBuffer();
 
-        System.out.println("Action\t\tValue\tSum of Produced\tSum of Consumed");
-        System.out.printf("------\t\t-----\t---------------\t---------------%n%n");
+        System.out.println("Action         \t\tValue\tSum of Produced\tSum of Consumed");
+        System.out.printf("---------------\t\t-----\t---------------\t---------------%n%n");
 
         executorService.execute(new Producer(sharedLocation));
         executorService.execute(new Consumer(sharedLocation));
